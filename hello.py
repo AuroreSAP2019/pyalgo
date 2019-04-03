@@ -12,3 +12,7 @@ print (resultat)
 """
 Fin de l'algorithme
 """
+operande1 = -3
+operande2 = 2
+resultat = operande1 + operande2
+print (resultat)
