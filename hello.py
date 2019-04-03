@@ -6,13 +6,17 @@ Displays result
 Operands and Operators, functions
 """
 resultat = 0 # Définition de la variable
-resultat = 2 + 2
-print (resultat)
 
-"""
-Fin de l'algorithme
-"""
 operande1 = -3
 operande2 = 2
 resultat = operande1 + operande2
 print (resultat)
+
+if resultat > 0:
+    print ("Résultat positif")
+else :
+    print ("Résultat négatif")
+
+"""
+Fin de l'algorithme
+""
