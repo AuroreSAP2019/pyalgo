@@ -8,9 +8,18 @@ Use % to get rest of int div
 Use input() function to get a user entry 
 """
 
+# totalDue
+prix = 70
 
-somme = 400
-print ("Vous devez", somme, "€")
+# Somme en entrée
+customerSomme = 100
+
+# Rendu monnaie
+resultat = customerSomme - prix
+
+print ("le prix de l'article est")
+print ("Vous avez  donné", customerSomme, "€")
+print ("Nous vous devons", resultat, "€")
 billet100 = somme // 100
 rendu100 = somme % 100
 billet50 = rendu100 // 50
@@ -26,7 +35,6 @@ rendu2 = rendu5 % 2
 piece1 = rendu2 // 1
 rendu1 = rendu2 % 1
 
-print (billet100,billet50,billet20,billet10,billet5,piece2,piece1)
 print ("Rendu")
 print (billet100, "x100€")
 print (billet50, "x50€")
